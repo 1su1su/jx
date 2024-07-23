@@ -10,10 +10,10 @@ page = st.sidebar.radio('我的首页', ['我的兴趣推荐', '我的图片处�
 def page_1():
     '''我的兴趣推荐'''
     st.write("音乐推荐")
-    with open(r'C:\Users\susu\Desktop\第一课工程包\知更鸟.mp3', "rb") as f:
+    with open('知更鸟.mp3', "rb") as f:
         mymp3 = f.read()
         st.audio(mymp3, format="audio/mp3", start_time=0)
-    with open(r'C:\Users\susu\Desktop\第一课工程包\people.mp3', "rb") as f:
+    with open('people.mp3', "rb") as f:
         mp3 = f.read()
         st.audio(mp3, format="audio/mp3", start_time=0)
 
