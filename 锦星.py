@@ -1,7 +1,6 @@
 '''我的主页'''
 import streamlit as st
 import PIL
-from streamlit_drawable_canvas import st_canvas
 from PIL import Image
 
 #st(background_image = Image.open("宇宙.gif"))
